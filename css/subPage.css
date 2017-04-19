@@ -1,0 +1,54 @@
+
+/*********************************************p2*********************/
+#p2 .jumbotron{
+	display: inline-table;
+	width: 100%;
+}
+#p2-nav{
+	display: table-cell;
+	width:20%;
+	height: 150px;
+	vertical-align: top;
+	text-align: center;
+}
+#p2-nav>div{
+	display: list-item;
+	margin-bottom: 5px;
+	width: 90%;
+	height: 40px;
+	font-size: 1.3em;
+	line-height: 40px;
+	text-align: center;
+	list-style-type: none;
+	background-color: white;
+}
+#p2-content{
+	display: table-cell;
+	width:79%;
+	height: 200px;
+	background-color: white;
+}
+#p2-content p{
+	width: 95%;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 20px;
+	font-size: 1.2em;
+}
+#p2-nav>div:hover{
+	cursor: pointer;
+	color: white;
+	background-color: #286090;
+}
+#p2-app-nav .row h3{
+	z-index: 10;
+	top: 38%;
+	left: 40%;
+}
+#find a,#control a,#report a,#sale a{
+	position: relative;
+	bottom: -20px;
+}
+#p2-article a:link,#p2-article a:visited,#p2-article a:hover,#p2-article a:active{
+	color: white;
+}

@@ -1,0 +1,126 @@
+/*this is for all page*/
+body,html{
+	width: 100%;
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.z-1003{
+	z-index: 1003;
+}
+a:link,a:hover,a:active,a:visited{
+	color: black;
+	text-decoration: none;
+}
+/*********************************************p1*********************/
+#p1 header{
+	z-index: 1001;
+	height:62px; 
+	color: white;
+}
+#p1 header a:link{
+	color: white;
+	text-decoration: none;
+}
+#p1 header a:hover{
+	color: gray;
+	text-decoration: none;
+}
+#p1 header a:active{
+	color: white;
+	text-decoration: none;
+}
+#p1 header a:visited{
+	color: white;
+	text-decoration: none;
+}
+/*
+#p1 nav{
+	height: 60px;
+	justify-content:flex-end;
+	-webkit-justify-content:flex-end;
+}
+@media screen and (max-width: 997px){
+	#p1 nav{
+	height: 60px;
+	justify-content:center;
+	-webkit-justify-content:center;
+	}
+	#logo{
+		text-align: center;	
+	}
+}
+#p1 nav span{
+	margin-left: 20px;
+}
+*/
+@media screen and (max-width: 997px){
+	#p1 nav{
+		width:45%;
+		text-align:center;
+		margin:0 auto;
+	}
+	#logo{
+		text-align: center;	
+	}
+	#p2-content>div{
+		min-width:100%;
+		text-align:center;
+	}
+	#myTabContent>div>div>div>img{
+		display:none;
+	}
+}
+#p1 section{
+	top: 0;
+	left: 0;
+	min-width: 100%;
+}
+#p1-carousel .carousel-caption{
+	bottom:10% ;
+}
+.nav-hover{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav-hover:hover{
+	color: white;
+	background-color: #286090;
+	border-radius: 2px;
+}
+#p1 nav span>ul>li{
+	height: 30px;
+	background-color: #286090;
+	margin-top: 3px;
+}
+#p1 nav span>ul>li:first-child{
+	margin-top:30px; 
+}
+#p1 .nav-box>span>a>*{
+	line-height:70px;
+}
+#p1 .nav-box>span>ul{
+	top: 70%;
+}
+.nav-beClick{
+	color:white;
+	background-color: #286090;
+	border-radius: 2px;
+}
+.nav-title{
+	font-weight: bold;
+}
+.hover-white a:link,.hover-white a:visited,.hover-white a:hover.hover-white a:active{
+	color: white;
+}
+.hover-black a:link,.hover-black a:visited,.hover-black a:hover.hover-black a:active{
+	color: black;
+}
+#p2-nav a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,55 @@
+.text-white{//白色
+	color:@white;
+}
+.text-gray{//灰色
+	color:@gray;
+}
+.text-green{//浅一点的绿色
+	color:@green;
+	.link-hover(@green,@green);
+}
+.text-darken-green{//深一点的绿色
+	color:@darken-green;
+}
+//navbar
+.navbar-link-hover1{//白色变绿色
+	.link-hover(@white,@green);
+}
+.navbar-link-hover2{//灰色变绿色
+	.link-hover(@gray,@green);
+}
+.border-white{//白色
+	border:@level1-1 solid @white;
+}
+.border-green{//绿色
+	border:@level1-1 solid @green;
+}
+.button-hover1{//白色变绿色
+	.border-white;
+	color:@white;
+	background-color: transparent;
+	.text-hover(@green);
+	&:hover{
+		background-color: transparent;
+		.border-green;
+
+	}
+}
+.button-green{//全为绿色
+	.border-green;
+	.text-green;
+}
+//可公用
+.button-hover2{//绿色变深
+	.text-white;
+	border:none;
+	background-color:@green;
+	.bg-hover(@darken-green);
+}
+.p-bg-gray{//浅一点灰色
+	background-color: @p-gray-color;
+}
+.footer-bg-gray{//深一点颜色
+	background-color: @footer-gray-color;
+}
+

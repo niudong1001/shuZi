@@ -1,0 +1,163 @@
+#header{
+	display: table;
+	width: 100%;
+	min-width: 100%;
+	height: @header-height;
+	background-image: url(../images/header-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	h1{
+		color: white;
+	}
+	h2{
+		color: white;
+	}
+	>div{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		button{
+			width: @header-button-width;
+			.button-hover2;
+		}
+		input{
+			width: 250px;
+		}
+	}
+	@media screen and (max-width:997px){
+		display: none;
+	}
+}
+#p1{
+	>h1{
+		text-align: center;
+		margin-top: @level3-1;
+		margin-bottom: @level3-1;
+	}
+	.pure-u-md-1-6{
+		text-align: center;
+	}
+	.pure-u-md-1-6 *{
+		text-align: center;
+	}
+	p{
+		margin-top: @level2-2;
+		margin-bottom: @level2-2;
+	}
+}
+#p2{
+	margin-top: @level3-2;
+	text-align: center;
+	hr{
+		margin-top: @level3-1;
+	}
+}
+#p3{
+	margin-top: @level3-2;
+	height: @p3-height;
+}
+#p4{
+	height: @p-height;
+	border-top:1px solid @base-border-color;
+	border-bottom:1px solid @base-border-color;
+	background-color: @p-gray-color;
+	.pure-g{
+		.p-control;	
+	}
+}
+#p5{
+
+	.pure-g{
+		.p-control;
+		margin-bottom: 50px;
+	}
+}
+#p6{
+	height: @p-height;
+	border-top:1px solid @base-border-color;
+	border-bottom:1px solid @base-border-color;
+	background-color: @p-gray-color;
+	.pure-g{
+		.p-control;	
+	}
+}
+#p7{
+	.pure-g{
+		.p-control;	
+	}
+	img{
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 50px;
+	}
+}
+#p8{
+	height: @p8-height;
+	text-align: center;
+	.p-control;	
+	>div{
+		display: inline-table;
+		width: 60%;
+		>div{
+			display: table-row;
+			>div{
+				display: table-cell;
+				vertical-align: middle;
+				font-size: @h5-size;
+				padding: 30px 0;	
+			}
+			>div:nth-child(1){
+				width: 10%;
+			}
+			>div:nth-child(2){
+				width: 25%;
+				text-align: left;
+			}
+			>div:nth-child(3){
+				width: 65%;
+				text-align: left;
+			}
+		}
+	}
+}
+#p9{
+	height: @p9-height;
+	background-color: @p-gray-color;
+	h2{
+		text-align: center;
+		font-weight: 700;
+		padding-top: 50px;
+	}
+	.pure-u-md-3-4{
+		text-align: center;
+		margin-top: 20px;
+		>div{
+			display: inline-table;
+			text-align: center;
+			width: 100%;
+			>div{
+				display: table-row;
+				>div{
+					display: table-cell;
+					text-align: left;
+					vertical-align: middle;
+					padding: 1% 1%;
+				}
+			}
+		}
+	}
+}
+#p10{
+	height: @p10-height;
+	text-align: center;
+	h2{
+		text-align: center;
+		padding-top: 5%;
+		font-weight: 400;
+	}
+	button{
+		width: @header-button-width;
+		.button-hover2;
+	}
+}

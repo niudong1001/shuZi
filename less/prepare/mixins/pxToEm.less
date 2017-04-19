@@ -1,0 +1,6 @@
+.pe(@px){
+	@em:0em+@px/@base-font-size-screen;
+	@media screen and (max-width:@base-screen-mobile-limit){
+		@em:0em+@px/@base-font-size-mobile;
+	}
+}

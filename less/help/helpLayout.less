@@ -1,0 +1,40 @@
+#help-header{
+	margin-top: @navbar-height;
+	height: @help-header-height;
+	width: 100%;
+	background-size: cover;
+	background-image: url(../images/help-header-bg.png);
+	h1{
+		margin: 0;
+		padding-top: 80px;
+		color: white;
+		text-align: center;
+	}
+	p{
+		margin: 0;
+		padding:2px 0;
+		text-align: center;
+		color: white;
+	}
+}
+#help-p1{
+	.pure-g{
+		h3{
+			i{
+				color:@green; 
+			}
+		}
+		p{
+			margin-left: 40px;
+			a{
+				.link-hover(rgb(102, 102, 102),@green);
+			}
+		}
+	}
+	.pure-g:first-child{
+		margin-top: 30px;
+	}
+	.pure-g:last-child{
+		margin-bottom: 50px;
+	}
+}

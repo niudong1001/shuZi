@@ -1,0 +1,255 @@
+/***thanks to use**************/
+/*
+those are some useful and common class you can use in your project
+*/
+
+
+
+/*
+animation-part
+*/
+.animation-linear{animation-timing-function:linear;-webkit-animation-timing-function:linear;}
+.animation-ease{animation-timing-function: ease;-webkit-animation-timing-function:ease;}
+.animation-infinite{animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;}
+.animation-run{animation-play-state:running;-webkit-animation-play-state:running;}
+.animation-pause{animation-play-state:paused;-webkit-animation-play-state:paused;}
+.animation-reverse{animation-direction:reverse;-webkit-animation-direction:reverse;}
+.animation-alternate{animation-direction:alternate;-webkit-animation-direction:alternate;}
+
+/*
+background-part
+*/
+/*bg-attachment*/
+.bg-fixed{background-attachment:fixed;}
+.bg-scroll{background-attachment:scroll;}
+/*bg-color*/
+.bg-transparent{background-color: transparent;}
+.bg-red{background-color: red;}
+.bg-orange{background-color: orange;}
+.bg-yellow{background-color: yellow;}
+.bg-green{background-color: green;}
+.bg-blue{background-color: blue;}
+.bg-purple{background-color: purple;}
+.bg-white{background-color: white;}
+.bg-black{background-color: black;}
+.bg-gray{background-color: gray;}
+.bg-lightblue{background-color: lightblue;}
+.bg-lightgreen{background-color: lightgreen;}
+.bg-lightgray{background-color: lightgray;}
+/*bg-repeat,bg-size*/
+.bg-repeat-no{background-repeat: no-repeat;}
+.bg-repeat-x{background-repeat: repeat-x;}
+.bg-repeat-y{background-repeat: repeat-y;}
+.bg-repeat{background-repeat: repeat;}
+.bg-cover{background-size: cover;}
+.bg-contain{background-size: contain;}
+
+/*
+border-part
+*/
+.border-none{border-style:none;}
+.border-test{border-style: solid;border-width: 1px;}
+.border-dotted{border-style: dotted;}
+.border-dashed{border-style: dashed;}
+.border-solid{border-style: solid;}
+.border-1{border-width: 1px;}
+.border-2{border-width: 2px;}
+.border-3{border-width: 3px;}
+.border-4{border-width: 4px;}
+.border-5{border-width: 5px;}
+.border-black{border-color: black;}
+.border-gray{border-color: gray;}
+.border-white{border-color: white;}
+.border-red{border-color: red;}
+
+/*
+outline-part,border-radius,opacity
+*/
+.outline-none{outline-style:none;}
+.border-radius-5{border-radius: 5px;}
+.border-radius-10{border-radius: 10px;}
+.border-radius-15{border-radius: 15px;}
+.border-radius-20{border-radius: 20px;}
+.opacity-0{opacity: 0;filter:alpha(opacity=0);}
+.opacity-5{opacity: 0.5;filter:alpha(opacity=50);}
+.opacity-10{opacity: 1;filter:alpha(opacity=100);}
+
+/*
+padding,margin
+*/
+/*padding*/
+.padding-none{padding:0;}
+.padding-5{padding: 5px;}
+.padding-10{padding: 10px;}
+.padding-15{padding: 15px;}
+.padding-20{padding: 20px;}
+.padding-left-5{padding-left: 5px;}
+.padding-left-10{padding-left: 10px;}
+.padding-left-15{padding-left: 15px;}
+.padding-left-20{padding-left: 20px;}
+.padding-top-5{padding-top: 5px;}
+.padding-top-10{padding-top: 10px;}
+.padding-top-15{padding-top: 15px;}
+.padding-top-20{padding-top: 20px;}
+.padding-right-5{padding-right: 5px;}
+.padding-right-10{padding-right: 10px;}
+.padding-right-15{padding-right: 15px;}
+.padding-right-20{padding-right: 20px;}
+.padding-bottom-5{padding-bottom: 5px;}
+.padding-bottom-10{padding-bottom: 10px;}
+.padding-bottom-15{padding-bottom: 15px;}
+.padding-bottom-20{padding-bottom: 20px;}
+/*margin*/
+.margin-none{margin:0;}
+.margin-5{margin: 5px;}
+.margin-10{margin: 10px;}
+.margin-15{margin: 15px;}
+.margin-20{margin: 20px;}
+.margin-left-5{margin-left: 5px;}
+.margin-left-10{margin-left: 10px;}
+.margin-left-15{margin-left: 15px;}
+.margin-left-20{margin-left: 20px;}
+.margin-top-5{margin-top: 5px;}
+.margin-top-10{margin-top: 10px;}
+.margin-top-15{margin-top: 15px;}
+.margin-top-20{margin-top: 20px;}
+.margin-right-5{margin-right: 5px;}
+.margin-right-10{margin-right: 10px;}
+.margin-right-15{margin-right: 15px;}
+.margin-right-20{margin-right: 20px;}
+.margin-bottom-5{margin-bottom: 5px;}
+.margin-bottom-10{margin-bottom: 10px;}
+.margin-bottom-15{margin-bottom: 15px;}
+.margin-bottom-20{margin-bottom: 20px;}
+
+/*
+height,width
+*/
+.height-all{height: 100%;}
+.width-all{width: 100%;}
+.height-auto{height: auto;}
+.width-auto{width: auto;}
+.max-height-all{max-height: 100%;}
+.max-width-all{max-width: 100%;}
+.min-height-all{min-height: 100%;}
+.min-width-all{min-width: 100%;}
+
+/*
+flex-part
+*/
+.justify-center{-webkit-justify-content:center;justify-content:center;}
+.justify-space-between{-webkit-justify-content:space-between;justify-content:space-between;}
+.justify-space-around{-webkit-justify-content:space-around;justify-content:space-around;}
+.items-stretch{align-items: stretch;-webkit-align-items: stretch;}
+.items-center{align-items: center;-webkit-align-items: center;}
+.flex-wrap{flex-wrap:wrap;-webkit-flex-wrap: wrap;}
+.flex-nowrap{flex-wrap:nowrap;-webkit-flex-wrap: nowrap;}
+.flex-row{flex-direction:row;-webkit-flex-direction:row;}
+.flex-col{flex-direction:column;-webkit-flex-direction:column;}
+
+/*
+font
+*/
+.family-active{font-family:"Comic Sans MS", cursive, sans-serif}
+.family-serious{font-family: Arial, Helvetica, sans-serif}
+.family-apart{font-family: "Lucida Console", Monaco, monospace;}
+.family-yahei{font-family:Microsoft YaHei;}
+.font-standard{font-size:1em;}
+.font-12{font-size: 12px;}
+.font-14{font-size: 14px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+.font-20{font-size: 20px;}
+.font-italic{font-style: italic;}
+.font-bold{font-weight: bold;}
+.font-bolder{font-weight: bolder;}
+.font-lighter{font-weight: lighter;}
+
+/*
+list
+*/
+.list-none{list-style-type: none;}
+.list-disc{list-style-type: disc;}
+.list-circle{list-style-type: circle;}
+.list-square{list-style-type: square;}
+.list-decimal{list-style-type: decimal;}
+
+/*
+position-part
+*/
+.top-0{top:0;}
+.right-0{right: 0;}
+.bottom-0{bottom: 0;}
+.left-0{left: 0;}
+.clear-left{clear: left;}
+.clear-right{clear: right;}
+.clear-both{clear: both;}
+.float-left{float: left;}
+.float-right{float: right;}
+.cursor-pointer{cursor: pointer;}
+/*display*/
+.display-none{display: none;}
+.display-block{display: block;}
+.display-inline{display: inline;}
+.display-inline-block{display: inline-block;}
+.display-table{display: table;}
+.display-inline-table{display: inline-table;}
+.display-table-cell{display: table-cell;}
+.display-flex{display: flex;}
+/*overflow*/
+.overflow-visible{overflow: visible;}
+.overflow-hidden{overflow: hidden;}
+.overflow-scroll{overflow: scroll;}
+/*position*/
+.position-abs{position: absolute;}
+.position-fix{position: fixed;}
+.position-rel{position: relative;}
+/*visibility*/
+.v-visible{visibility: visible;}
+.v-hidden{visibility: hidden;}
+.v-collapse{visibility: collapse;}
+
+/*
+text-part
+*/
+/*color*/
+.text-red{color: red;}
+.text-orange{color: orange;}
+.text-yellow{color: yellow;}
+.text-green{color: green;}
+.text-blue{color: blue;}
+.text-purple{color: purple;}
+.text-white{color: white;}
+.text-black{color: black;}
+.text-gray{color: gray;}
+.text-lightblue{color: lightblue;}
+.text-lightgreen{color: lightgreen;}
+.text-lightgray{color: lightgray;}
+/*line-height*/
+.line-height-all{line-height: 100%;}
+/*text-align*/
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.text-justify{text-align: justify;}
+/*text-decoration*/
+.decoration-none{text-decoration: none;}
+.decoration-underline{text-decoration: underline;}
+/*white-space*/
+.pre{white-space: pre;}
+.nowrap{white-space: nowrap;}
+.pre-wrap{white-space: pre-wrap;}
+.pre-line{white-space: pre-line;}
+/*text-overflow*/
+.text-clip{text-overflow:clip;}
+.text-ellipsis{text-overflow:ellipsis;}
+/*word-wrap,word-break*/
+.break-word{word-wrap: break-word;}
+.break-all{word-break:break-all;}
+.keep-all{word-break:keep-all;}
+
+/*
+user-interface
+*/
+.border-box{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.content-box{box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;}

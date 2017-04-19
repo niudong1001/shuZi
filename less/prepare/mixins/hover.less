@@ -1,0 +1,21 @@
+.bg-hover(@change-color){
+	&:hover{
+		background-color: @change-color;
+	}
+}
+.link-hover(@origin-color:@base-link-color;@change-color:@base-hover-color){
+	&:link,&:visited{
+		color:@origin-color;
+		text-decoration: none;
+	}
+	&:hover,&:active{
+		color:@change-color;
+		text-decoration: none;
+	}
+}
+.text-hover(@change-color:@base-hover-color){
+	&:hover,&:active{
+		color:@change-color;
+		text-decoration: none;
+	}
+}
